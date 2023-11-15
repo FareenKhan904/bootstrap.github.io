@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.co {
+    position: sticky;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(5px);
+    background-color: rgba(8, 8, 51, 0.37);
+    z-index: 23;
+}
+
+#icon {
+    color: blueviolet;
+    font-weight: 800;
+    margin-right: 10px;
+}
+
+#icon-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ul {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#ul li {
+    padding-left: 25px;
+}
+
+.dropdown-menu {
+    background-color: rgb(54, 17, 87);
+}
+
+.dropdown-item {
+    color: rgb(192, 180, 202);
+    padding: 20px 100px 10px 0;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(54, 17, 87);
+    color: rgb(255, 255, 255);
+}
+
+#search-bar {
+    background-color: rgb(75, 17, 87);
+    /* margin-right: 50px; */
+    height: 40px;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 0 30px 0 10px;
+    /* display: none; */
+}
+
+::placeholder {
+    color: #fff;
+}
+
+#bar:hover #search-bar {
+    display: inline-block;
+}
+
+#search-bar:hover {
+    display: block;
+}
+
+#wallet-connect:hover {
+    color: aliceblue;
+    background-color: blue;
+    border: none;
+}
+
+#wallet-connect {
+    width: 70px;
+    padding: 7px 5px;
+}
+
+#heading {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#section-2 {
+    margin-top: 75px;
+}
+
+#section2-btn {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.btn-con {
+    width: 150px;
+    position: relative;
+}
+
+#section2-btn:hover {
+    background-color: blue;
+    border: none;
+
+}
+
+#box {
+    height: auto;
+    width: 250px;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    z-index: 20;
+}
+
+#box::before {
+    content: '';
+    background: black;
+    position: absolute;
+    border-radius: 15px;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    inset: 1.5px;
+}
+
+#box:hover {
+    background: linear-gradient(to right, rgb(83, 3, 83), rgb(6, 6, 180), rgb(161, 161, 12), rgb(173, 23, 173));
+    border: none;
+}
+
+#con{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    border: 1px solid red;
+}
+
+.carousel-item{
+z-index: -1;
+}
+
+.card{
+    border-radius: 20px;
+    box-shadow: rgb(192, 180, 202);
+    z-index:-1;
+}
+
+#span{
+    color: #fff;
+    cursor: pointer;
+}
+
+#span:hover{
+color: blueviolet;
+}
+
+#img{
+    height: 40px;
+    width: 40px;
+}
+
+#timer{
+    background-color: rgb(52, 50, 50);
+    padding: 5px 0;
+}
+
+#refresh{
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#refresh:hover{
+   color: rgb(21, 21, 136);
+}
+.re{
+    color: burlywood    ;
+}
+.re:hover{
+    color: blue ;
+}
+#btn-2:hover{
+    background-color: rgb(12, 12, 119);
+    color: #fff;
+    border: none;
+}
+
+.dho{
+    height: auto;
+    width: 310px;
+    border: solid 1px #424141;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(41, 40, 40);
+    transition: .3s ease;
+}
+
+.dho:hover{
+    background-color: #fff;
+    border: none;
+}
+
+.dho:hover h4{
+    color: rgb(18, 18, 18);
+}
+
+.dho-icon{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.dho-icon1{
+    background-color: rgb(183, 193, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.icon{
+    color: rgb(238, 34, 68);
+
+}
+.icon1{
+    color:rgb(216, 110, 72);
+
+}
+.icon2{
+    color:rgb(41, 198, 182);
+
+}
+.icon3{
+    color:blue;
+
+}
+
+.dho h4{
+color: #fff;
+text-transform: capitalize;
+}
+
+.dho p{
+    color: #8e8989;
+    margin: 0;
+}

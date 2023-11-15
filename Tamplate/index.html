@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>tamplate using bootstrap</title>
+</head>
+
+<body style="background-color:rgb(12, 6, 14);">
+    <!--SECTION-1  navbar -->
+    <div class="co">
+        <nav class="navbar navbar-expand-sm navbar-dark mt-3 ">
+            <div class="container nav">
+                <a id="icon-name" href="" class="navbar-brand h1 m-0  "><i id="icon" class="fa fa-bolt"
+                        aria-hidden="true"></i>NFT</a>
+
+                <ul id="ul" class="navbar-nav ">
+                    <li class="nav-item "><a href="" class="nav-link active ">Home</a>
+                    <li class="nav-item"><a href="" class="nav-link ">Explore</a>
+                    <li class="nav-item"><a href="" class="nav-link">comunity</a>
+                    <li class="nav-item dropdown"><a href="" class="nav-link  dropdown-toggle"
+                            data-bs-toggle="dropdown">pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Explore Items</a></li>
+                            <li><a href="" class="dropdown-item">Create Items</a></li>
+                            <li><a href="" class="dropdown-item">Connect Wallet</a></li>
+                            <li><a href="" class="dropdown-item">Support</a></li>
+                            <li><a href="" class="dropdown-item">Sign In Page</a></li>
+                            <li><a href="" class="dropdown-item">Sign Out Page</a></li>
+                        </ul>
+                    <li class="nav-item"><a href="" class="nav-link">support</a> </li>
+                </ul>
+                <div class="row ">
+                    <div class="col-sm row bar">
+                        <input id="search-bar" class="form-control col-lg  " type="text" placeholder="search here...">
+                        <a href="" id="search" class="navbar-brand col-1 "><i class="fa fa-search "
+                                aria-hidden="true"></i></a>
+                    </div>
+
+                    <button id="wallet-connect" class="btn btn-outline-light col-sm  me-1"><a href=""
+                            class="navbar-brand"><i class="fa fa-credit-card" aria-hidden="true"></i></a> Wallet
+                        Connect</button>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--SECTION-2 heading Tailwind CSS -->
+    <div id="section-2" class="container mb-5">
+        <h1 id="heading" class="text-light">Talwind Tamplate for <br>NTF Marketplace and <br>Web3 Platforms</h1>
+
+        <p class="text-secondary h5 mt-4 fw-bold lh-base">Template for NFT, Token, and Web3 marketplace projects,<br>
+            based on Tailwind CSS. Comes with all the essential UI <br> components and pages you need to build an NFT
+            <br>marketplace or all sorts of Web3 platforms.
+        </p>
+
+        <div class="mt-4">
+            <button class="btn btn-primary m-2 p-3 fw-bold">Explore Now</button>
+            <button class="btn btn-outline-light p-3 fw-bold">Upload Your Art</button>
+        </div>
+    </div>
+
+    <!-- SECTION-3  Slider -->
+    <div class="container sec-3">
+        <div class="d-flex justify-content-between">
+            <h1 class="text-light text-capitalize ">top artists</h1>
+
+            <div class="me-2 mb-5 btn-con">
+                <button id="section2-btn" class="btn text-light btn-outline-light fs-4 me-2 carousel-control-prev"
+                    data-bs-target="#oky" data-bs-slide="prev" type="button"><i class="fa fa-arrow-left"
+                        aria-hidden="true"></i></button>
+                <button id="section2-btn" class="btn text-light btn-outline-light fs-4 me-2 carousel-control-next"
+                    data-bs-target="#oky" data-bs-slide="next" type="button"><i class="fa fa-arrow-right"
+                        aria-hidden="true"></i></button>
+            </div>
+        </div>
+
+        <hr class="text-light mb-5">
+
+        <div class="carousel  slide " data-bs-ride="carousel" id="oky">
+            <!-- <div class="carousel-indicators">
+                <button class=" active" data-bs-target="#oky" data-bs-slide-to="0" type="button"></button>
+                <button class="" data-bs-target="#oky" data-bs-slide-to="1" type="button"></button>
+                <button class="" data-bs-target="#oky" data-bs-slide-to="2" type="button"></button>
+                <button class="" data-bs-target="#oky" data-bs-slide-to="3" type="button"></button>
+                <button class="" data-bs-target="#oky" data-bs-slide-to="4" type="button"></button>
+                <button class="" data-bs-target="#oky" data-bs-slide-to="5" type="button"></button>
+            </div> -->
+
+            <div class="carousel-inner  d-flex justify-content-between ">
+                <div class="carousel-item d-block active col-lg-4 ">
+                    <div id="box"
+                        class="d-flex border border-2 border-secondary rounded-4 bg-dark align-items-center mb-5">
+                        <img class="ms-3 rounded-3" src="/images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt=""
+                            style="width: 50px; height: 70px;">
+                        <div class="ms-3 mt-3 ">
+                            <h4 class="text-light text-capitalize fw-bold">@elon_mask</h4>
+                            <p class="text-success text-uppercase fw-bolder">2.92eth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item d-block col-lg-4  ">
+                    <div id="box"
+                        class="d-flex border border-2 border-secondary rounded-4 bg-dark align-items-center mb-5">
+                        <img class="ms-3 rounded-3" src="/images/jonas-kakaroto-mjRwhvqEC0U-unsplash.jpg" alt=""
+                            style="width: 50px; height: 70px;">
+                        <div class="ms-3 mt-3 ">
+                            <h4 class="text-light text-capitalize fw-bold">@elon_mask</h4>
+                            <p class="text-success text-uppercase fw-bolder">2.92eth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item d-block  ">
+                    <div id="box"
+                        class="d-flex border border-2 border-secondary rounded-4 bg-dark align-items-center mb-5">
+                        <img class="ms-3 rounded-3" src="/images/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg" alt=""
+                            style="width: 50px; height: 70px;">
+                        <div class="ms-3 mt-3 ">
+                            <h4 class="text-light text-capitalize fw-bold">@elon_mask</h4>
+                            <p class="text-success text-uppercase fw-bolder">2.92eth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="box"
+                        class="d-flex border border-2 border-secondary rounded-4 bg-dark align-items-center mb-5">
+                        <img class="ms-3 rounded-3" src="/images/stefan-stefancik-QXevDflbl8A-unsplash.jpg" alt=""
+                            style="width: 50px; height: 70px;">
+                        <div class="ms-3 mt-3 ">
+                            <h4 class="text-light text-capitalize fw-bold">@elon_mask</h4>
+                            <p class="text-success text-uppercase fw-bolder">2.92eth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="box"
+                        class="d-flex border border-2 border-secondary rounded-4 bg-dark align-items-center mb-5">
+                        <img class="ms-3 rounded-3" src="/images/kelly-sikkema-JN0SUcTOig0-unsplash.jpg" alt=""
+                            style="width: 50px; height: 70px;">
+                        <div class="ms-3 mt-3 ">
+                            <h4 class="text-light text-capitalize fw-bold">@elon_mask</h4>
+                            <p class="text-success text-uppercase fw-bolder">2.92eth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="box"
+                        class="d-flex border border-2 border-secondary rounded-4 bg-dark align-items-center mb-5">
+                        <img class="ms-3 rounded-3" src="/images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt=""
+                            style="width: 50px; height: 70px;">
+                        <div class="ms-3 mt-3 ">
+                            <h4 class="text-light text-capitalize fw-bold">@elon_mask</h4>
+                            <p class="text-success text-uppercase fw-bolder">2.92eth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="box"
+                        class="d-flex border border-2 border-secondary rounded-4 bg-dark align-items-center mb-5">
+                        <img class="ms-3 rounded-3" src="/images/jonas-kakaroto-mjRwhvqEC0U-unsplash.jpg" alt=""
+                            style="width: 50px; height: 70px;">
+                        <div class="ms-3 mt-3 ">
+                            <h4 class="text-light text-capitalize fw-bold">@elon_mask</h4>
+                            <p class="text-success text-uppercase fw-bolder">2.92eth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="box"
+                        class="d-flex border border-2 border-secondary rounded-4 bg-dark align-items-center mb-5">
+                        <img class="ms-3 rounded-3" src="/images/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg" alt=""
+                            style="width: 50px; height: 70px;">
+                        <div class="ms-3 mt-3 ">
+                            <h4 class="text-light text-capitalize fw-bold">@elon_mask</h4>
+                            <p class="text-success text-uppercase fw-bolder">2.92eth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="box"
+                        class="d-flex border border-2 border-secondary rounded-4 bg-dark align-items-center mb-5">
+                        <img class="ms-3 rounded-3" src="/images/stefan-stefancik-QXevDflbl8A-unsplash.jpg" alt=""
+                            style="width: 50px; height: 70px;">
+                        <div class="ms-3 mt-3 ">
+                            <h4 class="text-light text-capitalize fw-bold">@elon_mask</h4>
+                            <p class="text-success text-uppercase fw-bolder">2.92eth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="box"
+                        class="d-flex border border-2 border-secondary rounded-4 bg-dark align-items-center mb-5">
+                        <img class="ms-3 rounded-3 " src="/images/kelly-sikkema-JN0SUcTOig0-unsplash.jpg" alt=""
+                            style="width: 50px; height: 70px;">
+                        <div class="ms-3 mt-3 ">
+                            <h4 class="text-light text-capitalize fw-bold">@elon_mask</h4>
+                            <p class="text-success text-uppercase fw-bolder">2.92eth</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION-4   Live Auctions -->
+    <div class=" container sec-4 mt-5 ">
+        <div class="d-flex justify-content-between">
+            <h1 class="text-light text-capitalize ">top artists</h1>
+            <button id="sec4-btn" class="btn btn-primary m-2 fw-bold text-capitalize ">view all</button>
+        </div>
+
+        <hr class="text-light mb-5">
+
+        <div class=" d-block d-flex justify-content-between row row-cols-1 row-cols-md-3 g-4 py-5  flex-wrap">
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-01.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">22-Bit Digital #123</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/kelly-sikkema-JN0SUcTOig0-unsplash.jpg" alt="" class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-sge..</h6>
+                                <p class="text-secondary">Lorem.</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 5.23ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <div id="timer" class="rounded">
+                        <p class="text-center  text-white fs-5 fw-bold mb-0">02 : 03 : 05 : 01</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-02.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">25-Bit Digital #837</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt=""
+                                class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-deh..</h6>
+                                <p class="text-secondary">Ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 2.23ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <div id="timer" class="rounded">
+                        <p class="text-center  text-white fs-5 fw-bold mb-0">12 : 03 : 25 : 01</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-04.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">35-Bit Digital #274</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg" alt=""
+                                class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-all..</h6>
+                                <p class="text-secondary">Sit.</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 7.34ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <div id="timer" class="rounded">
+                        <p class="text-center  text-white fs-5 fw-bold mb-0">11 : 30 : 02 : 11</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-04.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">42-Bit Digital #353</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/stefan-stefancik-QXevDflbl8A-unsplash.jpg" alt=""
+                                class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-ITS..</h6>
+                                <p class="text-secondary">Amet</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 5.23ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <div id="timer" class="rounded">
+                        <p class="text-center  text-white fs-5 fw-bold mb-0">23 : 03 : 25 : 01</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SECTION-5   Today's picks -->
+    <div class="container mb-5">
+        <div class="d-flex justify-content-between">
+            <h1 class="text-light text-capitalize ">today's picks</h1>
+            <button id="sec4-btn" class="btn btn-primary m-2 fw-bold text-capitalize ">view all</button>
+        </div>
+
+        <hr class="text-light mb-5">
+
+        <div class=" d-block d-flex row row-cols-1 row-cols-md-3 g-4 py-5  flex-wrap gap-4">
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-01.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">22-Bit Digital #123</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/kelly-sikkema-JN0SUcTOig0-unsplash.jpg" alt="" class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-sge..</h6>
+                                <p class="text-secondary">Lorem.</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 5.23ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <hr class="text-light">
+                    <div class="d-flex justify-content-evenly ">
+                        <button class="btn btn-primary fw-bold fs-6">Place Bid</button>
+                        <i id="refresh" class="fa fa-refresh " aria-hidden="true"><span> view history</span></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-02.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">22-Bit Digital #123</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt=""
+                                class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-sge..</h6>
+                                <p class="text-secondary">Lorem.</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 5.23ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <hr class="text-light">
+                    <div class="d-flex justify-content-evenly ">
+                        <button class="btn btn-primary fw-bold fs-6">Place Bid</button>
+                        <i id="refresh" class="fa fa-refresh " aria-hidden="true"><span> view history</span></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-03.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">22-Bit Digital #123</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/jonas-kakaroto-mjRwhvqEC0U-unsplash.jpg" alt=""
+                                class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-sge..</h6>
+                                <p class="text-secondary">Lorem.</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 5.23ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <hr class="text-light">
+                    <div class="d-flex justify-content-evenly ">
+                        <button class="btn btn-primary fw-bold fs-6">Place Bid</button>
+                        <i id="refresh" class="fa fa-refresh " aria-hidden="true"><span> view history</span></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-04.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">22-Bit Digital #123</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/stefan-stefancik-QXevDflbl8A-unsplash.jpg" alt=""
+                                class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-sge..</h6>
+                                <p class="text-secondary">Lorem.</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 5.23ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <hr class="text-light">
+                    <div class="d-flex justify-content-evenly ">
+                        <button class="btn btn-primary fw-bold fs-6">Place Bid</button>
+                        <i id="refresh" class="fa fa-refresh " aria-hidden="true"><span> view history</span></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-05.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">22-Bit Digital #123</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/kelly-sikkema-JN0SUcTOig0-unsplash.jpg" alt="" class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-sge..</h6>
+                                <p class="text-secondary">Lorem.</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 5.23ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <hr class="text-light">
+                    <div class="d-flex justify-content-evenly ">
+                        <button class="btn btn-primary fw-bold fs-6">Place Bid</button>
+                        <i id="refresh" class="fa fa-refresh " aria-hidden="true"><span> view history</span></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-06.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">22-Bit Digital #123</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg" alt=""
+                                class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-sge..</h6>
+                                <p class="text-secondary">Lorem.</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 5.23ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <hr class="text-light">
+                    <div class="d-flex justify-content-evenly ">
+                        <button class="btn btn-primary fw-bold fs-6">Place Bid</button>
+                        <i id="refresh" class="fa fa-refresh " aria-hidden="true"><span> view history</span></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-07.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">22-Bit Digital #123</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/stefan-stefancik-QXevDflbl8A-unsplash.jpg" alt=""
+                                class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-sge..</h6>
+                                <p class="text-secondary">Lorem.</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 5.23ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <hr class="text-light">
+                    <div class="d-flex justify-content-evenly ">
+                        <button class="btn btn-primary fw-bold fs-6">Place Bid</button>
+                        <i id="refresh" class="fa fa-refresh " aria-hidden="true"><span> view history</span></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-dark p-3 " style="width: 350px;">
+                <img class="card-img-top" src="/images/image-08.svg" alt="">
+                <div class="card-body p-0 pt-3">
+                    <span id="span" class=" fw-bolder fs-5 ">22-Bit Digital #123</span>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex ">
+                            <img id="img" src="/images/kelly-sikkema-JN0SUcTOig0-unsplash.jpg" alt="" class="rounded-3">
+                            <div class="ps-3">
+                                <h6 class="text-white m-0">@Devid-sge..</h6>
+                                <p class="text-secondary">Lorem.</p>
+                            </div>
+                        </div>
+                        <div class="ps-3">
+                            <h6 class="text-white m-0 fw-lighter text-end"> 5.23ETH </h6>
+                            <p class="text-secondary"> Current Bit</p>
+                        </div>
+                    </div>
+                    <hr class="text-light">
+                    <div class="d-flex justify-content-evenly ">
+                        <button class="btn btn-primary fw-bold fs-6">Place Bid</button>
+                        <i id="refresh" class="fa fa-refresh " aria-hidden="true"><span> view history</span></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" d-flex justify-content-center ">
+            <button id="btn-2" class=" btn btn-outline-light btn-lg d-grid m-0">Load More...</button>
+        </div>
+    </div>
+
+
+    <div class="container-fluid ">
+        <h1 class="text-center text-light text-capitalize ">core features</h1>
+        <p class=" text-center text-secondary lh-md fs-5"> Lorem ipsum dolor sit amet, adipisicing elit.corporis
+            molestiae, voluptatem <br>
+            Est blanditiis nisi nihil cumque corporis molestiae, voluptatem </p>
+
+
+        <div class="d-flex justify-content-evenly flex-wrap my-5">
+
+            <div class="dho">
+                <div class=" dho-icon text-light fs-2 fw-bold rounded-circle " style="width: 80px ; height: 80px;">
+                    <i class=" icon fa fa-caret-square-o-left" aria-hidden="true"></i>
+                </div>
+                <h4>set up your wallet</h4>
+                <p>Lorem ipsum dolor sit amet. <br> Lorem, ipsum dolor.</p>
+            </div>
+
+
+            <div class="dho">
+                <div class=" dho-icon text-light fs-2 fw-bold rounded-circle " style="width: 80px ; height: 80px;">
+                    <i class="icon1 fa fa-windows" aria-hidden="true"></i>
+                </div>
+                <h4>set up your wallet</h4>
+                <p>Lorem ipsum dolor sit amet. <br> Lorem, ipsum dolor.</p>
+            </div>
+
+
+            <div class="dho">
+                <div class=" dho-icon1 text-light fs-2 fw-bold rounded-circle " style="width: 80px ; height: 80px;">
+                    <i class="icon2 fa fa-picture-o" aria-hidden="true"></i>
+                </div>
+                <h4>set up your wallet</h4>
+                <p>Lorem ipsum dolor sit amet. <br> Lorem, ipsum dolor.</p>
+            </div>
+
+
+            <div class="dho">
+                <div class=" dho-icon1 text-light fs-2 fw-bold rounded-circle " style="width: 80px ; height: 80px;">
+                    <i class="icon3 fa fa-pencil" aria-hidden="true"></i>
+                </div>
+                <h4>set up your wallet</h4>
+                <p>Lorem ipsum dolor sit amet. <br> Lorem, ipsum dolor.</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
