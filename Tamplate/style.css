@@ -20,7 +20,7 @@
 }
 
 #icon {
-    color: blueviolet;
+    color: purple;
     font-weight: 800;
     margin-right: 10px;
 }
@@ -140,7 +140,7 @@
     border: none;
 }
 
-#con{
+#con {
     width: 200px;
     display: flex;
     align-items: center;
@@ -149,36 +149,36 @@
     border: 1px solid red;
 }
 
-.carousel-item{
-z-index: -1;
+.carousel-item {
+    z-index: -1;
 }
 
-.card{
+.card {
     border-radius: 20px;
     box-shadow: rgb(192, 180, 202);
-    z-index:-1;
+    z-index: -1;
 }
 
-#span{
+#span {
     color: #fff;
     cursor: pointer;
 }
 
-#span:hover{
-color: blueviolet;
+#span:hover {
+    color: blueviolet;
 }
 
-#img{
+#img {
     height: 40px;
     width: 40px;
 }
 
-#timer{
+#timer {
     background-color: rgb(52, 50, 50);
     padding: 5px 0;
 }
 
-#refresh{
+#refresh {
     color: #fff;
     margin-top: 10px;
     cursor: pointer;
@@ -186,22 +186,25 @@ color: blueviolet;
     font-weight: bold;
 }
 
-#refresh:hover{
-   color: rgb(21, 21, 136);
+#refresh:hover {
+    color: rgb(21, 21, 136);
 }
-.re{
-    color: burlywood    ;
+
+.re {
+    color: burlywood;
 }
-.re:hover{
-    color: blue ;
+
+.re:hover {
+    color: blue;
 }
-#btn-2:hover{
+
+#btn-2:hover {
     background-color: rgb(12, 12, 119);
     color: #fff;
     border: none;
 }
 
-.dho{
+.dho {
     height: auto;
     width: 310px;
     border: solid 1px #424141;
@@ -211,55 +214,195 @@ color: blueviolet;
     transition: .3s ease;
 }
 
-.dho:hover{
+.dho:hover {
     background-color: #fff;
     border: none;
 }
 
-.dho:hover h4{
+.dho:hover h4 {
     color: rgb(18, 18, 18);
 }
 
-.dho-icon{
-    background-color: pink;
+.dho-icon {
+    background-color: rgb(244, 195, 203);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    
+
 }
-.dho-icon1{
-    background-color: rgb(183, 193, 188);
+
+.dho-icon1 {
+    background-color: rgb(211, 217, 214);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    
-}
-
-.icon{
-    color: rgb(238, 34, 68);
-
-}
-.icon1{
-    color:rgb(216, 110, 72);
-
-}
-.icon2{
-    color:rgb(41, 198, 182);
-
-}
-.icon3{
-    color:blue;
 
 }
 
-.dho h4{
-color: #fff;
-text-transform: capitalize;
+.icon {
+    color: rgb(219, 71, 96);
+
 }
 
-.dho p{
+.icon1 {
+    color: rgb(218, 122, 87);
+
+}
+
+.icon2 {
+    color: rgb(84, 153, 146);
+
+}
+
+.icon3 {
+    color: blue;
+
+}
+
+.dho h4 {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.dho p {
     color: #8e8989;
     margin: 0;
+}
+
+
+.like-sec {
+
+    padding: 90px 0;
+    /* background: black; */
+    width: 100%;
+
+}
+
+.main {
+    width: 45%;
+    overflow: hidden;
+    /* padding: 10px; */
+    /* max-width: 50%; */
+    border: 1px solid white;
+    background: rgba(64, 62, 62, 0.647);
+}
+
+.box1 {
+    width: 70%;
+
+    /* height: auto; */
+    /* border: 1px solid #fff; */
+}
+
+#bx div img {
+    width: 160px;
+    /* height: 170px; */
+}
+
+.m img {
+    width: 336px;
+    height: 150px;
+}
+
+
+a {
+    padding: 2px 5px;
+}
+
+.like i {
+    color: red;
+    padding: 5px 7px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.like span {
+    color: black;
+}
+
+
+
+
+
+.para {
+    color: #8e8989;
+}
+
+.icons i {
+    margin-right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: blue;
+}
+
+.btns a {
+    color: #8e8989;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+.btns a:hover {
+    color: #fff;
+}
+
+.form {
+    position: relative;
+
+}
+
+.form input {
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    background: transparent;
+    font-weight: bold;
+    height: 100%;
+    width: 300px;
+    outline: none;
+    border: 1px solid rgb(80, 78, 78);
+}
+
+::placeholder {
+    /* border: none; */
+    color: #424141;
+    text-transform: capitalize;
+}
+
+.form i {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    color: #fff;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    /* align-items: center; */
+    margin-top: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form i:hover {
+    animation: rotate 1s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+
+    }
+
+    50% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+
 }
